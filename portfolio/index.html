@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atul Rawat | Frontend Developer Portfolio – HTML, CSS, JavaScript, Bootstrap</title>
+  <meta name="description" content="Portfolio of Atul Rawat, a fresher frontend developer and MCA student skilled in HTML5, CSS3, Bootstrap, JavaScript, PHP and MySQL. Open to frontend internship opportunities.">
+  <meta name="author" content="Atul Rawat">
+  <meta name="theme-color" content="#0B1220">
+  <meta property="og:title" content="Atul Rawat | Frontend Developer">
+  <meta property="og:description" content="Responsive, user-friendly web interfaces built with HTML5, CSS3, Bootstrap and JavaScript.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Atul Rawat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#journey">Journey</a></li>
+            <li class="nav-item"><a class="btn btn-accent btn-sm ms-lg-2 mt-2 mt-lg-0" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 order-2 order-lg-1">
+            <p class="badge-pill"><span class="dot" aria-hidden="true"></span>Available for Internship Opportunities</p>
+            <h1 id="hero-title">Hello, I'm Atul Rawat.</h1>
+            <p class="hero-role">Frontend Developer</p>
+            <p class="lead-text">I am a passionate frontend developer focused on creating responsive, user-friendly and visually appealing web experiences using modern web technologies.</p>
+            <div class="d-flex flex-wrap gap-3 mb-4">
+              <a class="btn btn-accent btn-lg" href="#projects">View My Projects</a>
+              <a class="btn btn-outline-accent btn-lg" href="assets/Atul_Rawat_Frontend_Developer_Resume.pdf" download>Download Resume</a>
+            </div>
+            <ul class="social-list" aria-label="Social links">
+              <li><a data-link="linkedin" href="#contact" target="_blank" rel="noopener" aria-label="Atul Rawat on LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
+              <li><a data-link="github" href="#contact" target="_blank" rel="noopener" aria-label="Atul Rawat on GitHub"><i class="bi bi-github" aria-hidden="true"></i></a></li>
+              <li><a data-link="email" href="#contact" aria-label="Email Atul Rawat"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <div class="photo-wrap">
+              <div class="photo-frame">
+                <img src="assets/img/profile-atul-img.jpg" width="400" height="400" alt="Portrait of Atul Rawat, frontend developer" fetchpriority="high">
+              </div>
+              <span class="float-badge"><i class="bi bi-code-slash" aria-hidden="true"></i> Frontend Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">About Me</h2>
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-7">
+            <p>I have completed my Bachelor of Arts (BA) and am currently pursuing a Master of Computer Applications (MCA). I also completed Web Development training from Arena Animation, where I built a practical foundation in building websites.</p>
+            <p>I am interested in frontend development and UI design, and I enjoy turning layouts into clean, responsive pages that work well on every screen size. I am passionate about learning new technologies and building responsive websites, and I am looking for an internship where I can contribute and keep growing as a frontend developer.</p>
+          </div>
+          <div class="col-lg-5">
+            <dl class="row g-3 info-grid">
+              <div class="col-6"><div class="card-box"><dt>Name</dt><dd>Atul Rawat</dd></div></div>
+              <div class="col-6"><div class="card-box"><dt>Education</dt><dd>MCA Pursuing</dd></div></div>
+              <div class="col-6"><div class="card-box"><dt>Experience</dt><dd>Fresher</dd></div></div>
+              <div class="col-6"><div class="card-box"><dt>Career Goal</dt><dd>Frontend Developer</dd></div></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title">Technical Skills</h2>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><i class="bi bi-filetype-html" aria-hidden="true"></i><h3>HTML5</h3><p>Semantic, accessible page structure.</p></article></div>
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><i class="bi bi-filetype-css" aria-hidden="true"></i><h3>CSS3</h3><p>Flexbox, grid and responsive layouts.</p></article></div>
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><i class="bi bi-bootstrap" aria-hidden="true"></i><h3>Bootstrap</h3><p>Fast, consistent responsive interfaces.</p></article></div>
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><img src="https://cdn.simpleicons.org/tailwindcss/14b8a6" alt="" aria-hidden="true" loading="lazy"><h3>Tailwind CSS</h3><p>Utility-first CSS framework.</p></article></div>     
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><i class="bi bi-filetype-js" aria-hidden="true"></i><h3>JavaScript</h3><p>Interactivity and DOM manipulation.</p></article></div>
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><i class="bi bi-filetype-php" aria-hidden="true"></i><h3>PHP</h3><p>Server-side scripting fundamentals.</p></article></div>
+          <div class="col-sm-6 col-lg-4"><article class="card-box skill"><i class="bi bi-database" aria-hidden="true"></i><h3>MySQL</h3><p>Relational database basics.</p></article></div>
+        </div>
+
+        <h3 class="sub-title" id="tools-title">Tools I Use</h3>
+        <ul class="row g-4 list-unstyled" aria-labelledby="tools-title">
+          <li class="col-md-4"><div class="card-box tool"><i class="bi bi-code-square" aria-hidden="true"></i><span>Visual Studio Code</span></div></li>
+          <li class="col-md-4"><div class="card-box tool"><i class="bi bi-git" aria-hidden="true"></i><span>Git</span></div></li>
+          <li class="col-md-4"><div class="card-box tool"><i class="bi bi-github" aria-hidden="true"></i><span>GitHub</span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title">My Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card-box project">
+              <img src="assets/cricket-gear-website/home-page.png" width="150" height="100" loading="lazy" alt="Preview of the Cricket Gear Sports shopping website interface">
+              <div class="project-body">
+                <p class="tag">E-commerce Website UI</p>
+                <h3>Cricket Gear Sports</h3>
+                <p>A sports shopping website interface designed to showcase cricket equipment and sports products.</p>
+                <p class="tech">HTML, CSS, Bootstrap and JavaScript</p>
+                <a class="btn btn-outline-accent btn-sm" data-link="project-cricket" href="https://github.com/atulrwt22-cpu/cricket-gear-sports-website" target="_blank" rel="noopener">View Project<span class="visually-hidden">: Cricket Gear Sports</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card-box project">
+              <img src="assets/portfolio-website/portfolio-website.png" width="640" height="400" loading="lazy" alt="Preview of a responsive personal portfolio website">
+              <div class="project-body">
+                <p class="tag">Personal Portfolio</p>
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio showcasing technical skills, projects and professional information.</p>
+                <p class="tech">HTML, CSS, Bootstrap and JavaScript</p>
+                <a class="btn btn-outline-accent btn-sm" href="#home">View Project<span class="visually-hidden">: Portfolio Website (this site)</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card-box project">
+              <img src="assets/education-website/education-website.png" width="640" height="400" loading="lazy" alt="Preview of a modern business website concept">
+              <div class="project-body">
+                <p class="tag">Web Design</p>
+                <h3>Business Website</h3>
+                <p>A modern business website concept with a clean layout and responsive interface.</p>
+                <p class="tech">HTML, CSS and Bootstrap</p>
+                <a class="btn btn-outline-accent btn-sm" data-link="project-business" href="#contact" target="_blank" rel="noopener">View Project<span class="visually-hidden">: Business Website</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey -->
+    <section id="journey" class="section alt" aria-labelledby="journey-title">
+      <div class="container">
+        <h2 id="journey-title" class="section-title">My Learning Journey</h2>
+        <ol class="timeline">
+          <li><span class="node" aria-hidden="true"></span><h3>Started Learning Web Development</h3></li>
+          <li><span class="node" aria-hidden="true"></span><h3>Completed Web Development Training</h3></li>
+          <li><span class="node" aria-hidden="true"></span><h3>Started Building Personal Projects</h3></li>
+          <li><span class="node" aria-hidden="true"></span><h3>Currently Pursuing MCA</h3></li>
+          <li class="goal"><span class="node" aria-hidden="true"></span><h3>Working Towards a Frontend Developer Career</h3></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">Let's Connect</h2>
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p>I am actively looking for frontend development internship and fresher opportunities.</p>
+            <ul class="list-unstyled contact-list">
+              <li><a data-link="email" data-text="email" href="#contact"><i class="bi bi-envelope-fill" aria-hidden="true"></i><span>Email</span></a></li>
+              <li><a data-link="linkedin" href="#contact" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a></li>
+              <li><a data-link="github" href="#contact" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i><span>GitHub</span></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-7">
+            <form id="contactForm" class="card-box" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your name</label>
+                <input type="text" id="name" name="name" class="form-control" autocomplete="name" required minlength="2">
+                <div class="invalid-feedback">Enter your name (at least 2 characters).</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your email</label>
+                <input type="email" id="email" name="email" class="form-control" autocomplete="email" required>
+                <div class="invalid-feedback">Enter a valid email address, like name@example.com.</div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-control" required minlength="10"></textarea>
+                <div class="invalid-feedback">Write a message of at least 10 characters.</div>
+              </div>
+              <button type="submit" class="btn btn-accent">Send message</button>
+              <p id="formStatus" class="form-status mb-0 mt-3" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <p class="footer-name">Atul Rawat</p>
+          <p class="mb-0">Frontend Developer building responsive, user-friendly websites.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="footer-head">Quick Navigation</h2>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h2 class="footer-head">Social Media</h2>
+          <ul class="social-list" aria-label="Footer social links">
+            <li><a data-link="linkedin" href="#contact" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
+            <li><a data-link="github" href="#contact" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a></li>
+            <li><a data-link="email" href="#contact" aria-label="Email"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; <span id="year">2026</span> Atul Rawat. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
